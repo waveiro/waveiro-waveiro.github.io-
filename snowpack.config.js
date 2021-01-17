@@ -5,4 +5,7 @@ module.exports = {
     src: { url: '/' },
   },
   plugins: ['@snowpack/plugin-postcss'],
+  buildOptions: {
+    out: 'docs'
+  }
 };
