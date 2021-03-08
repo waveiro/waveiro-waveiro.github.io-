@@ -4,7 +4,7 @@ module.exports = {
     public: { url: '/', static: true },
     src: { url: '/' },
   },
-  plugins: ['@snowpack/plugin-postcss'],
+  plugins: ['@snowpack/plugin-sass'],
   buildOptions: {
     out: 'docs'
   },

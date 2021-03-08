@@ -1,53 +1,20 @@
 {
   "inputs": {
-    "_snowpack/pkg/tailwindcss/dist/base.css": {
-      "bytes": 9701,
-      "imports": []
-    },
-    "_snowpack/pkg/tailwindcss/dist/components.css": {
-      "bytes": 2916,
-      "imports": []
-    },
-    "_snowpack/pkg/tailwindcss/dist/utilities.css": {
-      "bytes": 3512669,
-      "imports": []
-    },
     "style.css": {
-      "bytes": 167,
-      "imports": [
-        {
-          "path": "_snowpack/pkg/tailwindcss/dist/base.css",
-          "kind": "import-rule"
-        },
-        {
-          "path": "_snowpack/pkg/tailwindcss/dist/components.css",
-          "kind": "import-rule"
-        },
-        {
-          "path": "_snowpack/pkg/tailwindcss/dist/utilities.css",
-          "kind": "import-rule"
-        }
-      ]
+      "bytes": 216,
+      "imports": []
     }
   },
   "outputs": {
     "../~~bundle~~/style.css": {
       "imports": [],
+      "entryPoint": "style.css",
       "inputs": {
-        "_snowpack/pkg/tailwindcss/dist/base.css": {
-          "bytesInOutput": 2595
-        },
-        "_snowpack/pkg/tailwindcss/dist/components.css": {
-          "bytesInOutput": 2064
-        },
-        "_snowpack/pkg/tailwindcss/dist/utilities.css": {
-          "bytesInOutput": 2846482
-        },
         "style.css": {
-          "bytesInOutput": 0
+          "bytesInOutput": 170
         }
       },
-      "bytes": 2851142
+      "bytes": 171
     }
   }
 }
