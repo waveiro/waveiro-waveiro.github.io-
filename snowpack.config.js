@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: ['@snowpack/plugin-sass'],
   buildOptions: {
-    out: 'dist'
+    out: 'docs'
   },
   optimize: {
     bundle: true,
